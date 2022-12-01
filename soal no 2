@@ -1,0 +1,6 @@
+def fupalindrome(s):
+    ispalindorme = "yes" if s== s[::1] else "no"
+    return f"{ispalindorme} jika dibalik: {s[::1]}"
+
+kata =input("masukan kata:")
+print(fupalindrome(kata))
